@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     #titanium{
+        border: 2px dashed black;
+
+        background-color: rgb(231, 215, 195);
+        height: 1475px;
+        width: 900px;
+        margin-left: 300px;
+    }
+
+    .rk {
+        background-color: rgba(243, 249, 239, 0.63);
+        padding: 20px;
+        border: 1px solid rgba(185, 172, 172, 0.514);
+        position: relative;
+        width: 840px;
+        margin: 8px;
+    }
+
+    nav {
+        border: 3px solid rgba(231, 225, 225, 0.241);
+        /* display: inline-block; */
+        padding: 10px;
+        border-radius: 10px;
+        background-color: floralwhite;
+        color: dodgerblue;
+        font-weight: bold;
+        float: right;
+        padding-left: 25px;
+        margin: 3px;
+        width: 325px;
+        position: absolute;
+        right: 10px;
+        bottom: 25px;
+
+    }
+
+    img {
+        border: 1px solid rgba(170, 167, 167, 0.358);
+        border-radius: 900px;
+        height: 250px;
+        width: 40%;
+        float: right;
+        margin: 20px;
+        margin: -6px;
+
+
+    }
+
+    .img {
+        background-color: antiquewhite;
+        border: 2px solid rgba(221, 206, 159, 0.377);
+        padding: 30px;
+        width: 820px;
+        margin: 8px;
+        background-color: aliceblue;
+
+    }
+
+    #tx {
+        width: 430px;
+        text-align: justify;
+        border: 2px double rgba(247, 237, 237, 0.721);
+        padding: 10px;
+        padding-bottom: 30px;
+    }
+
+    #tx #p {
+        color: blue;
+        text-transform: capitalize;
+    }
+
+    #tx #q {
+        color: rgb(21, 20, 20);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .pk {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+        margin: 10px 15px;
+        margin-left: ;
+    }
+    
+    
+    .logo{
+        float: right;
+        width: 330px;
+        height: 230px;
+        position: absolute;
+        right: 28px;
+        top: 20px;
+        border: 1px solid white;
+        margin-top: 2px;
+        border-radius: 40px;
+
+        
+    }
+    
+    .about{
+        width: 450px;
+        text-align: justify;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 20px;
+        padding: 15px;
+        border: 1px solid rgba(128, 128, 128, 0.705);
+        background-color: whitesmoke;
+        height: 215px;
+        padding-top: 0;
+    }
+    .about > h2{
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 34px;
+        background-color: floralwhite;
+        padding: 5px;
+    
+    }
+    .about-logo{
+        border: 1px solid rgba(170, 168, 168, 0.477);
+        width: 882px;
+        margin: 8px;
+        background-color: aliceblue;
+        height: 270px;
+        position: relative;
+    }
+    /* html logo */
+    .html{
+        width: 120px;
+        height: 120px;
+        border: 1px solid white;
+        border-radius: 40px;
+    }
+    #htmllogo{
+        border: 2px solid rgba(127, 121, 121, 0.271);
+        padding: 15px;
+        position: relative;
+        width: 120px;
+        height: 150px;
+        background-color:antiquewhite;
+        margin: 8px;
+    }
+    #htmllogo > img{
+        position: absolute;
+
+    }
+    .skill p{
+        font-weight: bold;
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+    .skill h3{
+        margin-bottom: ;
+    }
+    .skill{
+        width: 120px;
+        margin-top: 85px;
+    }
+    
+    .bar{
+        width: 100%;
+        height: 10px;
+        background-color: azure;
+        border-radius: 15px;
+    }
+    .html-progress{
+        width: 95%;
+        height: 10px;
+        background-color: blue;
+        border-radius: 10px;
+    }
+    /* my skill */
+    #nk {
+        border: 1px solid white;
+        margin: 0  8px;
+        padding: 7px;
+        text-align: center;
+        background-color: floralwhite;
+    }
+    /* css logo design  */
+    .skill1{
+        width: 120px;
+        margin-top: 85px;
+    }
+    .bar1{
+        width: 100%;
+        height: 10px;
+        background-color: azure;
+        border-radius: 15px;
+    }
+    .css-progress{
+        width: 50%;
+        height: 10px;
+        background-color: blue;
+        border-radius: 10px;
+    }
+    .css{
+        width: 120px;
+        height: 120px;
+        border: 1px solid white;
+        border-radius: 40px;
+    }
+    #csslogo{
+        border: 2px solid rgba(127, 121, 121, 0.271);
+        padding: 15px;
+        position: relative;
+        width: 120px;
+        height: 150px;
+        background-color:antiquewhite;
+        margin: 8px;
+        position: absolute;
+        left: 178px;
+        top: 0;
+    }
+    #csslogo > img{
+        position: absolute;
+
+    }
+    .skill1 p{
+        font-weight: bold;
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+    /* python logo design */
+    .skill2{
+        width: 120px;
+        margin-top: 85px;
+    }
+    .bar2{
+        width: 100%;
+        height: 10px;
+        background-color: azure;
+        border-radius: 15px;
+    }
+    .python-progress{
+        width: 30%;
+        height: 10px;
+        background-color: blue;
+        border-radius: 10px;
+    }
+    .python{
+        width: 120px;
+        height: 120px;
+        border: 1px solid white;
+        border-radius: 40px;
+    }
+    #pythonlogo{
+        border: 2px solid rgba(127, 121, 121, 0.271);
+        padding: 15px;
+        position: relative;
+        width: 120px;
+        height: 150px;
+        background-color:antiquewhite;
+        margin: 8px;
+        position: absolute;
+        left: 357px;
+        top: 0;
+    }
+    #pythonlogo > img{
+        position: absolute;
+
+    }
+    .skill2 p{
+        font-weight: bold;
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+    /* git logo design */
+    .skill3{
+        width: 120px;
+        margin-top: 85px;
+    }
+    .bar3{
+        width: 100%;
+        height: 10px;
+        background-color: azure;
+        border-radius: 15px;
+    }
+    .git-progress{
+        width: 65%;
+        height: 10px;
+        background-color: blue;
+        border-radius: 10px;
+    }
+    .git{
+        width: 120px;
+        height: 120px;
+        border: 1px solid white;
+        border-radius: 40px;
+    }
+    #gitlogo{
+        border: 2px solid rgba(127, 121, 121, 0.271);
+        padding: 15px;
+        position: relative;
+        width: 120px;
+        height: 150px;
+        background-color:antiquewhite;
+        margin: 8px;
+        position: absolute;
+        left: 535px;
+        top: 0;
+    }
+    #gitlogo > img{
+        position: absolute;
+
+    }
+    .skill3 p{
+        font-weight: bold;
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+    /* github logo design */
+     .skill4{
+        width: 120px;
+        margin-top: 85px;
+    }
+    .bar4{
+        width: 100%;
+        height: 10px;
+        background-color: azure;
+        border-radius: 15px;
+    }
+    .github-progress{
+        width: 25%;
+        height: 10px;
+        background-color: blue;
+        border-radius: 10px;
+    }
+    .github{
+        width: 120px;
+        height: 120px;
+        border: 1px solid white;
+        border-radius: 40px;
+    }
+    #githublogo{
+        border: 2px solid rgba(127, 121, 121, 0.271);
+        padding: 15px;
+        position: relative;
+        width: 120px;
+        height: 150px;
+        background-color:antiquewhite;
+        margin: 8px;
+        position: absolute;
+        left: 712px;
+        top: 0;
+    }
+    #githublogo > img{
+        position: absolute;
+
+    }
+    .skill4 p{
+        font-weight: bold;
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+    /* border */
+    .h{
+        border: 1px solid rgba(0, 0, 0, 0.342);
+        height: 200px;
+        width: 882px;
+        margin: 8px;
+        background-color: aliceblue;
+        position: relative;
+    }
+    /* hobbies */
+    .hoobies{
+        border: 1px solid rgba(156, 152, 152, 0.207);
+        width: 866px;
+        margin: 8px;
+        padding: 8px;
+        text-align: center;
+        background-color: floralwhite;
+    }
+    /* music design logo */
+    .hobbies1{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+
+    }
+    #hobbies1logo{
+        border: 1px solid rgba(181, 174, 174, 0.329);
+        position: relative;
+        width: 140px;
+        height: 140px;
+        margin: 8px;
+        background-color: antiquewhite;
+        position: absolute;
+
+
+    }
+    #hobbies1logo > p {
+       margin-top: 111px;
+        text-align: center;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    /* hobbies2 logo design */
+    .hobbies2{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+
+    }
+    #hobbies2logo{
+        border: 1px solid rgba(181, 174, 174, 0.329);
+        position: relative;
+        width: 140px;
+        height: 140px;
+        margin: 8px;
+        background-color: antiquewhite;
+        position: absolute;
+        left: 178px;
+
+    }
+    #hobbies2logo > p {
+        margin-top: 111px;
+        text-align: center;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    /* hobbies 3 logo design */
+    .hobbies3{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+
+    }
+    #hobbies3logo{
+        border: 1px solid rgba(181, 174, 174, 0.329);
+        position: relative;
+        width: 140px;
+        height: 140px;
+        margin: 8px;
+        background-color: antiquewhite;
+        position: absolute;
+        left: 357px;
+
+    }
+    #hobbies3logo > p {
+        margin-top: 111px;
+        text-align: center;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    /* hobbies 4 logo design  */
+    .hobbies4{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+
+    }
+    #hobbies4logo{
+        border: 1px solid rgba(181, 174, 174, 0.329);
+        position: relative;
+        width: 140px;
+        height: 140px;
+        margin: 8px;
+        background-color: antiquewhite;
+        position: absolute;
+        left: 538px;
+
+    }
+    #hobbies4logo > p {
+        margin-top: 111px;
+        text-align: center;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    /* hobbies 5 logo design  */
+     .hobbies5{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+
+    }
+    #hobbies5logo{
+        border: 1px solid rgba(181, 174, 174, 0.329);
+        position: relative;
+        width: 140px;
+        height: 140px;
+        margin: 8px;
+        background-color: antiquewhite;
+        /* position: absolute; */
+        left: 725px;
+    }
+    #hobbies5logo > p {
+        margin-top: 111px;
+        text-align: center;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    /* boder hobbies  */
+    .hobbiesdesign{
+        border: 1px solid rgba(182, 178, 178, 0.332);
+        position: relative;
+        background-color: aliceblue;
+        margin: 8px;
+    }
+    /* conntact  */
+    .contact{
+        border: 1px solid rgba(153, 148, 148, 0.297);
+        padding: 10px;
+        text-align: center;
+        margin: 8px;
+        background-color: floralwhite;
+    }
+    /* email logo  */
+    .email{
+        width: 40px;
+        height: 35px;
+        float: left;
+    }
+    .emaillogo{
+        border: 1px solid rgba(192, 197, 196, 0.334);
+        padding: 20px;
+        padding-bottom: 10px;
+        width: 160px;
+        background-color: aliceblue;
+    }
+    #mail{
+        margin-left: 50px;
+        margin-top: 3px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    .emaillogo p{
+        font-weight: bold;
+    }
+    /* phone  */
+    .phone{
+        width: 40px;
+        height: 35px;
+        float: left;
+    }
+    .phonelogo{
+        border: 1px solid rgba(192, 197, 196, 0.334);
+        padding: 20px;
+        padding-bottom: 10px;
+        width: 160px;
+        background-color: aliceblue;
+        position: absolute;
+        left: 225px;
+        top: 0;
+    }
+    #phone{
+        margin-left: 50px;
+        margin-top: 3px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    .phonelogo p{
+        font-weight: bold;
+    }
+    /* location  */
+    .location{
+        width: 40px;
+        height: 35px;
+        float: left;
+    }
+    .locationlogo{
+        border: 1px solid rgba(192, 197, 196, 0.334);
+        padding: 20px;
+        padding-bottom: 10px;
+        width: 160px;
+        background-color: aliceblue;
+        position: absolute;
+        left: 450px;
+        top: 0;
+    }
+    #location{
+        margin-left: 50px;
+        margin-top: 3px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    .locationlogo p{
+        font-weight: bold;
+    }
+    /* website  */
+    .website{
+        width: 40px;
+        height: 35px;
+        float: left;
+    }
+    .websitelogo{
+        border: 1px solid rgba(192, 197, 196, 0.334);
+        padding: 20px;
+        padding-bottom: 10px;
+        width: 160px;
+        background-color: aliceblue;
+        position: absolute;
+        left: 678px;
+        top: 0;
+    }
+    #website{
+        margin-left: 50px;
+        margin-top: 3px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    .websitelogo p{
+        font-weight: bold;
+    }
+    /* border  */
+    .contactdetail{
+        border: 1px solid rgba(174, 170, 170, 0.307);
+        position: relative;
+        margin: 8px;
+        background-color: whitesmoke;
+    }
+    /* footer */
+    footer p{
+        border: 1px solid rgba(131, 127, 127, 0.233);
+        padding: 15px;
+        margin: 8px;
+        text-align: center;
+        color: white;
+        background-color: darkcyan;
+    }
+</style>
+
+<body>
+    
+    <div id="titanium">
+    <header>
+        <div class="rk">
+            <h2>Rohit Kumar</h2>
+            <nav>
+                <a href="#home">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#about">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#skill">Skill</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#hobbies">Hobbies</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <div class="img">
+            <img src="images/rohit images.jpeg" alt="rohit gupta">
+            <div id="tx">
+                <h3>Hi, I'm</h3>
+                <h1>Rohit Kumar</h1>
+                <p id="p">web devlepover | learner | cse student</p>
+                <p id="q">I am a computer science engneering students. who loves to build a simple and beautiful
+                    websites.i enjoy learning new technology and improving my skills.
+                   <div class="socialicons">
+                        <a href="https://www.facebook.com"><img src="images/facebook logo.jpg" alt="" class="pk"></a>
+                        <a href="https://www.instagram.com"><img src="images/instagram-new.jpg" alt="" class="pk"></a>
+                       <a href="https://www.linkdin.com"> <img src="images/linkdin logo.png" alt="" class="pk"></a>
+                       <a href="https://www.github.com"> <img src="images/github logo.png" alt="" class="pk"></a>
+                    </div>
+                </p>
+
+
+
+            </div>
+
+        </div>
+        
+        <section id="about">
+        <div class="about-logo">
+            <img src="images/logo .jpeg" alt="logo" class="logo">
+            <div class="about">
+            <h2>About Me</h2>
+            <p>I am currently pursing in B.Tech in computer scirnce Engineering. I am passionate about web devlepment and problem solving. I want to become full stack developer and work on exiting projects.I done my 10th and 12th standard study in my village high school and I belong from Bihar. </p>
+            </div>
+            
+        </div>
+        </section>
+
+        <section id="skill">
+         <h2 id="nk">My Skills</h2>
+        <div class="h">
+            
+             <div id="htmllogo">
+            <img src="images/html logo.jpg" alt="" class="html">
+            <div class="skill">
+                <h3>Html</h3>
+                <div class="bar">
+                    <div class="html-progress"></div>
+                </div>
+                <p>95%</p>
+            </div>
+          </div>
+          <!-- css logo design -->
+           <div id="csslogo">
+            <img src="images/css logo.png" alt="" class="css">
+            <div class="skill1">
+                <h3>Css</h3>
+                <div class="bar1">
+                    <div class="css-progress"></div>
+                </div>
+                <p>50%</p>
+            </div>
+          </div>
+          <!-- python logo design -->
+           <div id="pythonlogo">
+            <img src="images/python-logo-master-v3-TM.png" alt="" class="python">
+            <div class="skill2">
+                <h3>Css</h3>
+                <div class="bar2">
+                    <div class="python-progress"></div>
+                </div>
+                <p>30%</p>
+            </div>
+          </div>
+          <!-- git logo design -->
+           <div id="gitlogo">
+            <img src="images/Git-Logo-1788C.png" alt="" class="git">
+            <div class="skill3">
+                <h3>Css</h3>
+                <div class="bar3">
+                    <div class="git-progress"></div>
+                </div>
+                <p>65%</p>
+            </div>
+          </div>
+          <!-- github design logo -->
+           <div id="githublogo">
+            <img src="images/github logo.png" alt="" class="github">
+            <div class="skill4">
+                <h3>Github</h3>
+                <div class="bar4">
+                    <div class="github-progress"></div>
+                </div>
+                <p>25%</p>
+            </div>
+          </div>
+
+        </div>
+        </section>
+
+        <section id="hobbies">
+        <h2 class="hoobies">My Hoobies</h2>
+        <div class="hobbiesdesign">
+            
+             <div id="hobbies1logo">
+            <img src="images/music logo.png" alt="" class="hobbies1">
+                <p>Listining Music</p>
+            </div>
+            <!-- hobbies 2 logo deign -->
+              <div id="hobbies2logo">
+            <img src="images/workout logo.jpg" alt="" class="hobbies2">
+                <p>Workout</p>
+            </div>
+            <!-- hobbies 3 logo  design -->
+             <div id="hobbies3logo">
+            <img src="images/camera logo.jpg" alt="" class="hobbies3">
+                <p>Photography</p>
+            </div>
+            <!-- hobbies 4 logo -->
+               <div id="hobbies4logo">
+            <img src="images/reading logo.jpg" alt="" class="hobbies4">
+                <p>Reading</p>
+            </div>
+            <!-- hobbies 5 logo   -->
+               <div id="hobbies5logo">
+            <img src="images/travel logo.png" alt="" class="hobbies5">
+                <p>Travling</p>
+            </div>
+
+        </div>
+        </section>
+        <!-- contact  -->
+    <section id="contact">
+        <h2 class="contact">Contact Me</h2>
+        <div class="contactdetail">
+
+        <div class="emaillogo">
+            <img alt="Email logo Images - Free Download on Magnific (formerly Freepik)" id="dimg_IjqMatOdPN_XseMPosTgmAw_17" src="data:image/png;base64,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" data-csiid="IjqMatOdPN_XseMPosTgmAw_1" data-atf="1" class="email">
+       <p id="mail">Email</p>
+       <p>rg0211216@gmail.com</p>
+       </div>
+
+       <!-- contact 1  -->
+        
+        <div class="phonelogo">
+          <img alt="Phone icon Symbol Sign Isolate on White Background,Vector Illustration 2261151 Vector Art at Vecteezy" id="dimg_bD-Mau6nFMmTseMPyLCwyQU_87" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk-3Q2OeVWzcNtova56eB4l1O3jYhHtx1xclyYeXFISQ&amp;s=10" data-csiid="bD-Mau6nFMmTseMPyLCwyQU_16" data-atf="1" class="phone">
+       <p id="phone">Phone</p>
+       <p>6206738134</p>
+       </div>
+<!-- contact 2  -->
+            <div class="locationlogo">
+          <img alt="Location Icon PNG Images, Vectors Free Download - Pngtree" id="dimg_1kGMaob9ONfLseMPpMmysQs_1" src="data:image/jpeg;base64,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" data-csiid="1kGMaob9ONfLseMPpMmysQs_1" data-atf="1" class="location">
+       <p id="location">Location</p>
+       <p>Lakhisarai,Bihar</p>
+       </div>
+       <!-- contact 3  -->
+        <div class="websitelogo">
+         <img alt="Website logo Vectors - Download Free High-Quality Vectors ..." id="dimg_HEKMatuyNe6SseMPlrjrkAc_5" src="data:image/png;base64,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" data-csiid="HEKMatuyNe6SseMPlrjrkAc_7" data-atf="1" class="website">
+       <p id="website">Website</p>
+         <p>https://www.rohit.com</p>
+         </div>
+        </div>
+        </section>
+
+         <footer>
+            <p>&copy; 2024. All rights reserved.</p>
+         </footer>
+
+    </main>
+    </div>
+</body>
+
+</html>

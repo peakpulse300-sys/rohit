@@ -1,0 +1,24 @@
+h1{
+color:blue;
+background-color: rgb(8, 235, 186);
+text-align: center;
+font-weight: bold;
+}
+p{
+    color: rgb(222, 14, 59);
+    font-weight: bold;
+}
+hr{
+    color: green;
+}
+input[type="text"]{
+
+    color: blueviolet;
+}
+    color: cyan;
+    background-color: rgb(217, 240, 6);
+}
+button[value="submit"]{
+    color: darkturquoise;
+    background-color: darkkhaki;
+}]

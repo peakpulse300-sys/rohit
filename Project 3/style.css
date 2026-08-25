@@ -1,0 +1,56 @@
+/* table{
+    border: 10cm;
+    border-color: blue;
+}
+th{
+    background-origin: padding-box;
+    border: 10px;
+
+}
+tr{
+    background-color: rgb(146, 237, 195);
+    border: 10px;
+    background-position: 10pc;
+    text-align: center;
+    background-size: contain;
+    background-origin: border-box;
+}
+header{
+    color: rgb(246, 61, 166); */
+nav{
+    float: right;
+    border: 3px ridge rgb(253, 20, 183);
+    padding: 5px 10px ;
+    background-color: lemonchiffon;
+   
+    border-radius: 10px;
+}
+#img{
+    float: right;
+    height: 50px;
+    margin-top: 20px;
+    /* margin-left: -20px; */
+
+}
+#rohit{
+    width: 1100px;
+    
+}
+
+#naman{
+    color: slateblue;
+    border: 4px double green;
+    width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: lightgrey;
+    margin-left: 10px;
+}
+#us{
+    border: 3px solid rgba(0, 0, 0, 0.721);
+    padding: 5px 10px 10px 10px ;
+    width: 900px;
+    height: 50px;
+    background-color: rgb(204, 177, 200);
+    color: rgb(7, 107, 239);
+}

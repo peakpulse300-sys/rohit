@@ -1,0 +1,12 @@
+.workout {
+    background-color: rgb(226, 21, 21);
+    padding: 20px;
+    border: 1px solid rgb(129, 232, 12);
+}
+div[class="workouts"]{
+    color: blue;
+    border: 10px;
+    border-color: pink;
+    background-color: aquamarine;
+    background-origin: padding-box;
+}

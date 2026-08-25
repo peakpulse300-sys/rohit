@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <h1>University Registration form</h1>
+        <b></b>
+        <p>Please fill out the form below to register</p>
+        <b></b>
+        <hr>
+        <h2> Personal Information</h2>
+        <br>
+        <label for="name">First Name: </label>
+        <input type="text" id="name" name="first name" placeholder="Enter first name"required>
+        <br><br>
+        <label for="name">Last Name: </label>
+        <input type="text" id="name" name="last name" placeholder="Enter last name" required>
+        <br>
+        <br>
+        <label for="dob">Date of Birth :</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+        <h3>Gender</h3>
+        
+        <input type="radio" id="male" value="male" name="gender" required>
+        <label for="male">Male</label>
+        
+        <br>
+        <input type="radio" id="female" value="female" name="gender" required>
+        <label for="female">Female</label>
+
+        <br>
+        <input type="radio" id="other" value="other" name="gender" required>
+        <label for="other">Other</label>
+        <br><br>
+        <h3>Upload your photo</h3>
+        <input type="file" name="photo" accept="image/*" required>
+        <br><br>
+        <hr>
+        <h2>Contact Information</h2>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter email" required>
+        <br><br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required>
+        <br><br>
+        <label for="address">Address:</label>
+        <br>
+        <textarea name="address" id="address" rows="4" cols="30" placeholder="Enter address" required></textarea>
+        <hr>
+        <h2>Academic Information</h2>
+        <label for="course">Select Course</label>
+        <select name="course" id="course">
+        <option value="B.TECH">B.TECH</option>
+        <option value="B.A">B.A</option>
+        <option value="B.SC">B.SC</option>
+        <option value="BCA">BCA</option>
+        <option value="BSCBT">BSCBT</option>
+        </select>
+          <br><br>
+    
+        <label>Extracurricular Interest:</label>
+        <br>
+         <input type="checkbox" name="interest" value="sports" id="interest">
+        <label for="interest">Sports</label>
+       
+        <br>
+        <input type="checkbox" name="interest" id="music" value="music & arts">
+        <label for="music">Music & Arts</label>
+        
+        <br>
+        <input type="checkbox" name="interest" id="interest" value="technology club">
+        <label for="interest">Technology Club</label>
+        
+        <br>
+         <input type="checkbox" name="interest" id="interest" value="volunterring">
+        <label for="interest">Volunterring</label>
+       
+        <br>
+        <br>
+        <hr>
+        <h2>Create Your Account</h2>
+        <label for="password">Create  Your Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter password" required>
+        <br>
+        <br>
+        <label>Security Question:</label>
+        <select name="security question" id="quuestion">
+            <option value="what is your childhood name">What is your childhood name</option>
+            <option value="what is your math teacher name">Whaat is your math teacher name</option>
+            <option value="your favorite colour">Your favroite colour</option>
+        </select>
+        <br><br>
+        <label for="answer">Security Answer:</label>
+        
+        <input type="text" name="security answer" id="answer" placeholder="Answer" required>
+        <br><br>
+        <button value="reset">Reset</button>
+        <br><br>
+        <button value="Submit">submit</button>
+    </form>
+</body>
+</html>
