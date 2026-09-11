@@ -1,0 +1,640 @@
+
+     #titanium{
+        border: 2px dashed black;
+
+        background-color: rgb(231, 215, 195);
+        height: 1475px;
+        width: 900px;
+        margin-left: 300px;
+    }
+
+    .rk {
+        background-color: rgba(243, 249, 239, 0.63);
+        padding: 20px;
+        border: 1px solid rgba(185, 172, 172, 0.514);
+        position: relative;
+        width: 840px;
+        margin: 8px;
+    }
+
+    nav {
+        border: 3px solid rgba(231, 225, 225, 0.241);
+        /* display: inline-block; */
+        padding: 10px;
+        border-radius: 10px;
+        background-color: floralwhite;
+        color: dodgerblue;
+        font-weight: bold;
+        float: right;
+        padding-left: 25px;
+        margin: 3px;
+        width: 325px;
+        position: absolute;
+        right: 10px;
+        bottom: 25px;
+
+    }
+
+    img {
+        border: 1px solid rgba(170, 167, 167, 0.358);
+        border-radius: 900px;
+        height: 250px;
+        width: 40%;
+        float: right;
+        margin: 20px;
+        margin: -6px;
+
+
+    }
+
+    .img {
+        background-color: antiquewhite;
+        border: 2px solid rgba(221, 206, 159, 0.377);
+        padding: 30px;
+        width: 820px;
+        margin: 8px;
+        background-color: aliceblue;
+
+    }
+
+    #tx {
+        width: 430px;
+        text-align: justify;
+        border: 2px double rgba(247, 237, 237, 0.721);
+        padding: 10px;
+        padding-bottom: 30px;
+    }
+
+    #tx #p {
+        color: blue;
+        text-transform: capitalize;
+    }
+
+    #tx #q {
+        color: rgb(21, 20, 20);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .pk {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+        margin: 10px 15px;
+        margin-left: ;
+    }
+    
+    
+    .logo{
+        float: right;
+        width: 330px;
+        height: 230px;
+        position: absolute;
+        right: 28px;
+        top: 20px;
+        border: 1px solid white;
+        margin-top: 2px;
+        border-radius: 40px;
+
+        
+    }
+    
+    .about{
+        width: 450px;
+        text-align: justify;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 20px;
+        padding: 15px;
+        border: 1px solid rgba(128, 128, 128, 0.705);
+        background-color: whitesmoke;
+        height: 215px;
+        padding-top: 0;
+    }
+    .about > h2{
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 34px;
+        background-color: floralwhite;
+        padding: 5px;
+    
+    }
+    .about-logo{
+        border: 1px solid rgba(170, 168, 168, 0.477);
+        width: 882px;
+        margin: 8px;
+        background-color: aliceblue;
+        height: 270px;
+        position: relative;
+    }
+    /* html logo */
+    .html{
+        width: 120px;
+        height: 120px;
+        border: 1px solid white;
+        border-radius: 40px;
+    }
+    #htmllogo{
+        border: 2px solid rgba(127, 121, 121, 0.271);
+        padding: 15px;
+        position: relative;
+        width: 120px;
+        height: 150px;
+        background-color:antiquewhite;
+        margin: 8px;
+    }
+    #htmllogo > img{
+        position: absolute;
+
+    }
+    .skill p{
+        font-weight: bold;
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+    .skill h3{
+        margin-bottom: ;
+    }
+    .skill{
+        width: 120px;
+        margin-top: 85px;
+    }
+    
+    .bar{
+        width: 100%;
+        height: 10px;
+        background-color: azure;
+        border-radius: 15px;
+    }
+    .html-progress{
+        width: 95%;
+        height: 10px;
+        background-color: blue;
+        border-radius: 10px;
+    }
+    /* my skill */
+    #nk {
+        border: 1px solid white;
+        margin: 0  8px;
+        padding: 7px;
+        text-align: center;
+        background-color: floralwhite;
+    }
+    /* css logo design  */
+    .skill1{
+        width: 120px;
+        margin-top: 85px;
+    }
+    .bar1{
+        width: 100%;
+        height: 10px;
+        background-color: azure;
+        border-radius: 15px;
+    }
+    .css-progress{
+        width: 50%;
+        height: 10px;
+        background-color: blue;
+        border-radius: 10px;
+    }
+    .css{
+        width: 120px;
+        height: 120px;
+        border: 1px solid white;
+        border-radius: 40px;
+    }
+    #csslogo{
+        border: 2px solid rgba(127, 121, 121, 0.271);
+        padding: 15px;
+        position: relative;
+        width: 120px;
+        height: 150px;
+        background-color:antiquewhite;
+        margin: 8px;
+        position: absolute;
+        left: 178px;
+        top: 0;
+    }
+    #csslogo > img{
+        position: absolute;
+
+    }
+    .skill1 p{
+        font-weight: bold;
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+    /* python logo design */
+    .skill2{
+        width: 120px;
+        margin-top: 85px;
+    }
+    .bar2{
+        width: 100%;
+        height: 10px;
+        background-color: azure;
+        border-radius: 15px;
+    }
+    .python-progress{
+        width: 30%;
+        height: 10px;
+        background-color: blue;
+        border-radius: 10px;
+    }
+    .python{
+        width: 120px;
+        height: 120px;
+        border: 1px solid white;
+        border-radius: 40px;
+    }
+    #pythonlogo{
+        border: 2px solid rgba(127, 121, 121, 0.271);
+        padding: 15px;
+        position: relative;
+        width: 120px;
+        height: 150px;
+        background-color:antiquewhite;
+        margin: 8px;
+        position: absolute;
+        left: 357px;
+        top: 0;
+    }
+    #pythonlogo > img{
+        position: absolute;
+
+    }
+    .skill2 p{
+        font-weight: bold;
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+    /* git logo design */
+    .skill3{
+        width: 120px;
+        margin-top: 85px;
+    }
+    .bar3{
+        width: 100%;
+        height: 10px;
+        background-color: azure;
+        border-radius: 15px;
+    }
+    .git-progress{
+        width: 65%;
+        height: 10px;
+        background-color: blue;
+        border-radius: 10px;
+    }
+    .git{
+        width: 120px;
+        height: 120px;
+        border: 1px solid white;
+        border-radius: 40px;
+    }
+    #gitlogo{
+        border: 2px solid rgba(127, 121, 121, 0.271);
+        padding: 15px;
+        position: relative;
+        width: 120px;
+        height: 150px;
+        background-color:antiquewhite;
+        margin: 8px;
+        position: absolute;
+        left: 535px;
+        top: 0;
+    }
+    #gitlogo > img{
+        position: absolute;
+
+    }
+    .skill3 p{
+        font-weight: bold;
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+    /* github logo design */
+     .skill4{
+        width: 120px;
+        margin-top: 85px;
+    }
+    .bar4{
+        width: 100%;
+        height: 10px;
+        background-color: azure;
+        border-radius: 15px;
+    }
+    .github-progress{
+        width: 25%;
+        height: 10px;
+        background-color: blue;
+        border-radius: 10px;
+    }
+    .github{
+        width: 120px;
+        height: 120px;
+        border: 1px solid white;
+        border-radius: 40px;
+    }
+    #githublogo{
+        border: 2px solid rgba(127, 121, 121, 0.271);
+        padding: 15px;
+        position: relative;
+        width: 120px;
+        height: 150px;
+        background-color:antiquewhite;
+        margin: 8px;
+        position: absolute;
+        left: 712px;
+        top: 0;
+    }
+    #githublogo > img{
+        position: absolute;
+
+    }
+    .skill4 p{
+        font-weight: bold;
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+    /* border */
+    .h{
+        border: 1px solid rgba(0, 0, 0, 0.342);
+        height: 200px;
+        width: 882px;
+        margin: 8px;
+        background-color: aliceblue;
+        position: relative;
+    }
+    /* hobbies */
+    .hoobies{
+        border: 1px solid rgba(156, 152, 152, 0.207);
+        width: 866px;
+        margin: 8px;
+        padding: 8px;
+        text-align: center;
+        background-color: floralwhite;
+    }
+    /* music design logo */
+    .hobbies1{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+
+    }
+    #hobbies1logo{
+        border: 1px solid rgba(181, 174, 174, 0.329);
+        position: relative;
+        width: 140px;
+        height: 140px;
+        margin: 8px;
+        background-color: antiquewhite;
+        position: absolute;
+
+
+    }
+    #hobbies1logo > p {
+       margin-top: 111px;
+        text-align: center;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    /* hobbies2 logo design */
+    .hobbies2{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+
+    }
+    #hobbies2logo{
+        border: 1px solid rgba(181, 174, 174, 0.329);
+        position: relative;
+        width: 140px;
+        height: 140px;
+        margin: 8px;
+        background-color: antiquewhite;
+        position: absolute;
+        left: 178px;
+
+    }
+    #hobbies2logo > p {
+        margin-top: 111px;
+        text-align: center;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    /* hobbies 3 logo design */
+    .hobbies3{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+
+    }
+    #hobbies3logo{
+        border: 1px solid rgba(181, 174, 174, 0.329);
+        position: relative;
+        width: 140px;
+        height: 140px;
+        margin: 8px;
+        background-color: antiquewhite;
+        position: absolute;
+        left: 357px;
+
+    }
+    #hobbies3logo > p {
+        margin-top: 111px;
+        text-align: center;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    /* hobbies 4 logo design  */
+    .hobbies4{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+
+    }
+    #hobbies4logo{
+        border: 1px solid rgba(181, 174, 174, 0.329);
+        position: relative;
+        width: 140px;
+        height: 140px;
+        margin: 8px;
+        background-color: antiquewhite;
+        position: absolute;
+        left: 538px;
+
+    }
+    #hobbies4logo > p {
+        margin-top: 111px;
+        text-align: center;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    /* hobbies 5 logo design  */
+     .hobbies5{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+
+    }
+    #hobbies5logo{
+        border: 1px solid rgba(181, 174, 174, 0.329);
+        position: relative;
+        width: 140px;
+        height: 140px;
+        margin: 8px;
+        background-color: antiquewhite;
+        /* position: absolute; */
+        left: 725px;
+    }
+    #hobbies5logo > p {
+        margin-top: 111px;
+        text-align: center;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    /* boder hobbies  */
+    .hobbiesdesign{
+        border: 1px solid rgba(182, 178, 178, 0.332);
+        position: relative;
+        background-color: aliceblue;
+        margin: 8px;
+    }
+    /* conntact  */
+    .contact{
+        border: 1px solid rgba(153, 148, 148, 0.297);
+        padding: 10px;
+        text-align: center;
+        margin: 8px;
+        background-color: floralwhite;
+    }
+    /* email logo  */
+    .email{
+        width: 40px;
+        height: 35px;
+        float: left;
+    }
+    .emaillogo{
+        border: 1px solid rgba(192, 197, 196, 0.334);
+        padding: 20px;
+        padding-bottom: 10px;
+        width: 160px;
+        background-color: aliceblue;
+    }
+    #mail{
+        margin-left: 50px;
+        margin-top: 3px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    .emaillogo p{
+        font-weight: bold;
+    }
+    /* phone  */
+    .phone{
+        width: 40px;
+        height: 35px;
+        float: left;
+    }
+    .phonelogo{
+        border: 1px solid rgba(192, 197, 196, 0.334);
+        padding: 20px;
+        padding-bottom: 10px;
+        width: 160px;
+        background-color: aliceblue;
+        position: absolute;
+        left: 225px;
+        top: 0;
+    }
+    #phone{
+        margin-left: 50px;
+        margin-top: 3px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    .phonelogo p{
+        font-weight: bold;
+    }
+    /* location  */
+    .location{
+        width: 40px;
+        height: 35px;
+        float: left;
+    }
+    .locationlogo{
+        border: 1px solid rgba(192, 197, 196, 0.334);
+        padding: 20px;
+        padding-bottom: 10px;
+        width: 160px;
+        background-color: aliceblue;
+        position: absolute;
+        left: 450px;
+        top: 0;
+    }
+    #location{
+        margin-left: 50px;
+        margin-top: 3px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    .locationlogo p{
+        font-weight: bold;
+    }
+    /* website  */
+    .website{
+        width: 40px;
+        height: 35px;
+        float: left;
+    }
+    .websitelogo{
+        border: 1px solid rgba(192, 197, 196, 0.334);
+        padding: 20px;
+        padding-bottom: 10px;
+        width: 160px;
+        background-color: aliceblue;
+        position: absolute;
+        left: 678px;
+        top: 0;
+    }
+    #website{
+        margin-left: 50px;
+        margin-top: 3px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    .websitelogo p{
+        font-weight: bold;
+    }
+    /* border  */
+    .contactdetail{
+        border: 1px solid rgba(174, 170, 170, 0.307);
+        position: relative;
+        margin: 8px;
+        background-color: whitesmoke;
+    }
+    /* footer */
+    footer p{
+        border: 1px solid rgba(131, 127, 127, 0.233);
+        padding: 15px;
+        margin: 8px;
+        text-align: center;
+        color: white;
+        background-color: darkcyan;
+    }
